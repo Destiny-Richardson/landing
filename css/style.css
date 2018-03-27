@@ -3,13 +3,13 @@ body{
   margin-left: 50px;
 }
 h1{
-  font-family: 'Amatic SC', cursive;
-  font-size: 60px;
+  font-family: 'Helvetica', cursive;
+  font-size: 100px;
   text-align: center;
 }
 
 p{
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.5em;
 }
 
@@ -20,10 +20,85 @@ p{
   margin-bottom: 50px;
   padding: 10px;
 
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.3em;
 
   text-align: center;
   max-width: 200px;
+
+}
+
+.image-demo{
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+
+  border: 1px black solid;
+
+  background-image: url("../images/jumbo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  text-align: center;
+
+  padding-top: 100px;
+
+}
+
+.menu-image{
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+
+  border: 1px black solid;
+
+  background-image: url("../images/food1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  text-align: center;
+
+  padding-top: 100px;
+
+
+}
+
+.local{
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+
+  border: 1px black solid;
+
+  background-image: url("../images/food3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  text-align: center;
+
+  padding-top: 100px;
+
+
+
+}
+
+
+
+.about-us{
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+
+  border: 1px black solid;
+
+  background-image: url("../images/food4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  text-align: center;
+
+  padding-top: 100px;
+
+
 
 }
